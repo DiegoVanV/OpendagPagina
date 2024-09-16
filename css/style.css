@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+header, footer {
+    background-color: #03357D;
+    padding: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img, footer img {
+    width: 150px;
+    padding: 25px;
+}
+
+header nav {
+    display: flex;
+    gap: 60px;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #03357D;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid #2cdb5d;
+    margin-right: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #2cdb5d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #03357D;
+    background-color: #2cdb5d;
+}
+
+
+
+.vakkendocenten {
+    border: 5px solid #2cdb5d;
+    background-color: #2cdb5d;
+    color: #03357D;
+    margin: 25px;
+    border-radius: 100px;
+    padding: 25px;
+}
+
+.vakken, .docenten {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.vak, .docent {
+    padding: 20px;
+    border: 5px solid #03357D;
+    border-radius: 25px;
+    text-align: center;
+    width: 20%;
+}
+
+.docent-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.docent p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #03357D;
+}
+
+.rooster {
+    background-color: #2cdb5d;
+    padding: 20px;
+    color: #03357D;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.rooster-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.rooster img, .versnellen img {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.rooster-text {
+    width: 45%;
+}
+
+.rooster h2, .versnellen h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #03357D;
+}
+
+.extra-info {
+    background-color: #2cdb5d;
+    padding: 40px 20px;
+    margin: 25px;
+    border-radius: 15px;
+    border: 1px solid #2cdb5d;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.extra-info-item {
+    background-color: white;
+    color: #03357D;
+    border: 2px solid #03357D;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 35%;
+    box-sizing: border-box;
+}
+
+
+
+footer {
+    color: #2cdb5d;
+    text-align: center;
+    padding: 30px;
+
+}

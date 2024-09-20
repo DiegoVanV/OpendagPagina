@@ -4,7 +4,7 @@
 }
 
 html {
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -40,6 +40,7 @@ header nav {
     display: flex;
     gap: 60px;
 }
+
 h1 {
     text-align: center;
     font-weight: bold;
@@ -62,8 +63,6 @@ a:hover {
     color: #03357D;
     background-color: #2cdb5d;
 }
-
-
 
 .vakkendocenten {
     border: 5px solid #2cdb5d;
@@ -108,6 +107,7 @@ a:hover {
     border-radius: 25px;
     margin-bottom: 25px;
 }
+
 .rooster-content {
     display: flex;
     align-items: center;
@@ -143,7 +143,6 @@ a:hover {
     justify-content: center;
 }
 
-
 .extra-info-item {
     background-color: white;
     color: #03357D;
@@ -155,11 +154,68 @@ a:hover {
     box-sizing: border-box;
 }
 
-
-
 footer {
     color: #2cdb5d;
     text-align: center;
     padding: 30px;
+}
 
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+
+    header, footer {
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding: 30px;
+    }
+
+    header img, footer img {
+        width: 100px;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 10px;
+    }
+
+    a {
+        margin-right: 0;
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .vakken, .docenten {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .vak, .docent {
+        width: 90%;
+    }
+
+    .rooster-content, .versnellen-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rooster img, .versnellen img {
+        width: 100%;
+    }
+
+    .rooster-text, .versnellen-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .extra-info-item {
+        width: 90%;
+    }
 }
